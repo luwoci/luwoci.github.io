@@ -2,3 +2,8 @@ body {
   width: auto;
   background-color: #1F2021;
 }
+
+header {
+  background-image: url(img/header-cat.png);
+}
+
