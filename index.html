@@ -11,74 +11,81 @@
   </head>
   <body>
     <header>
-      <section class="top-container">
-        <ul class="nav-container">
-          <li><a href="##">Главная</a></li>
-          <li><a href="##">Котики</a></li>
-          <li><a href="##">Про котиков</a></li>
-          <li><a href="##">Выставки</a></li>
-          <li><a href="##">Контакты</a></li>
-        </ul>
-        <img class="logo" src="img/logo.svg" alt="Логотип котейника">
-        <p>Минск</p>
-        <h1>Питомник британских кошек</h1>
-        <p>Первый питомник с расширенным спектром услуг</p>
-        <ul class="socials-container">
-          <li><a href="##"><svg width="39" height="23"><path d=""/>Вконтакте</svg></a></li>
-          <li><a href="##"><svg width="35" height="24"><path d=""/>Твиттер</svg></a></li>
-          <li><a href="##"><svg width="11" height="24"><path d=""/>Фейсбук</svg></a></li>
-        </ul>
+      <section class="header-container">
+        <div  class="nav-container">
+          <ul class="link-container">
+            <li><a href="##">Главная</a></li>
+            <li><a href="##">Котики</a></li>
+            <li><a href="##">Про котиков</a></li>
+            <li><a href="##">Выставки</a></li>
+            <li><a href="##">Контакты</a></li>
+          </ul>
+          <img class="logo" src="img/logo.svg" alt="Логотип котейника">
+        </div>
+        <div class="info-container">
+          <p>Минск</p>
+          <h1>Питомник британских кошек</h1>
+          <p>Первый питомник с расширенным спектром услуг</p>
+          <div class="socials-container">
+            <a href="##"><img src="img/vk.svg" alt="Vk"></a>
+            <a href="##"><img src="img/twitter.svg" alt="Twitter"></a>
+            <a href="##"><img src="img/facebook.svg" alt="Facebook"></a>
+          </div>
+        </div>
       </section>
     </header>
-    <section class="cats">   <!-- ???? -->
-      <h2>Питомцы</h2>
+    <section class="cats">
+      <h1>Питомцы</h1>
       <p>Британские кошки - спокойные и сильные кошки с плотным телосложением. Они дружелюбны и независимы, легко привыкают к новым условиям и идеально подходят в качестве домашних питомцев.</p>
-      <button>Котята</button>
-      <button>Коты</button>
-      <button>Кошки</button>
-      <button>стрелочка назад</button> 
-      <p>тут две картинки кнопки должны быть справа и слева и работать желательно</p>
-      <button>стрелочка вперед</button> 
+      <div class="options-container">
+        <button>Котята</button>
+        <button>Коты</button>
+        <button>Кошки</button>
+      </div>
+      <div class="choice-container">
+        <button><span class="back"></span></button>
+        <button><span class="ahead"></span></button> 
+      </div>
       <a href="##" class="more">Смотреть больше</a>
     </section>
     <section class="why-us">   <!-- flex -->
-      <h2>Почему именно мы?</h2>
-      <ul class="advantages-container>
+      <h1>Почему именно мы?</h1>
+      <div class="advantages-container">
         <li>Сертификат</li>
         <li>Воспитание</li>
         <li>Родословная</li>
         <li>Здоровье</li>
-      </ul>
+      </div>
     </section>
-    <section class="about-cats">   <!-- grid -->
-      <h2>Об уходе за котиками</h2>
+    <section class="cat-care">   <!-- grid? -->
+      <h1>Об уходе за котиками</h1>
       <ul>
-        <li><button>Шерсть</button></li>
-        <li><button>Когти</button></li>
-        <li><button>Уши и глаза</button></li>
-        <li><button>Питание</button></li>
+        <li><button><span class="ahead.svg">Шерсть</button></li>
+        <li><button><span class="ahead.svg">Когти</button></li>
+        <li><button><span class="ahead.svg">Уши и глаза</button></li>
+        <li><button><span class="ahead.svg">Питание</button></li>
       </ul>
     </section>
     <section class="q-and-a">
-      <h2>Вопрос-ответ</h2>
+      <h1>Вопрос-ответ</h1>
       <p>Мы ответим на самые популярные ваши вопросы</p>
       <ol>
-        <li>С какого возраста можно забирать котика из питомника? <button>+</button></li>
-        <li>Как подготовить дом к приему нового питомца? <button>+</button></li>
-        <li>Почему коты боятся огурцов? <button>+</button></li>
-        <li>Как зарезервировать котика? <button>+</button></li> <!-- thats a lot of buttons -->
+        <li><button><span class="plus.svg"></span>С какого возраста можно забирать котика из питомника?</button></li>
+        <li><button><span class="plus.svg"></span>Как подготовить дом к приему нового питомца?</button></li>
+        <li><button><span class="plus.svg"></span>Почему коты боятся огурцов?</button></li>
+        <li><button><span class="plus.svg"></span>Как зарезервировать котика?</button></li>
       </ol>
     </section>
-    <script src="aaaaaaa.js"></script>
+    <script src="js/aaaaaaa.js"></script>
   </body>
   <footer>
     <img src="img/logo.svg" alt="Логотип котейника">
     <p>Британский котейник</p>
-    <ul class="socials-container">
-       <li><a href="##"><svg width="39" height="23"><path d=""/>Вконтакте</svg></a></li>
-       <li><a href="##"><svg width="35" height="24"><path d=""/>Твиттер</svg></a></li>
-       <li><a href="##"><svg width="11" height="24"><path d=""/>Фейсбук</svg></a></li>
-    </ul>
+    <div class="socials-container">
+      <a href="##"><img src="img/vk.svg" alt="Vk"></a>
+      <a href="##"><img src="img/twitter.svg" alt="Twitter"></a>
+      <a href="##"><img src="img/facebook.svg" alt="Facebook"></a>
+    </div>
     <p>Минск, ул. Немига, 46</p>
     <p>Номер адрес</p>
   </footer>
