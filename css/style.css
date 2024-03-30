@@ -8,3 +8,26 @@ header {
   background-image: url(img/header-cat.png);
 }
 
+.ahead {
+  background-image: url(img/ahead.svg);
+}
+
+.plus {
+   background-image: url(img/plus.svg);
+}
+
+.certificate {
+   background-image: url(img/certificate.svg);
+}
+
+.upbringing {
+   background-image: url(img/upbringing.svg);
+}
+
+.pedigree {
+   background-image: url(img/pedigree.svg);
+}
+
+.health {
+   background-image: url(img/health.svg);
+}
