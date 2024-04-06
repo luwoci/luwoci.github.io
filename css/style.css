@@ -56,3 +56,7 @@ a:link {
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.socials-container a {
+  margin: 25 px;
+}
