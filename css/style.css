@@ -4,16 +4,19 @@ body {
 }
 
 .header-container {
-   display: block; 
    width: 100 %;
+   height: 770 px;
    background-image: url(../img/header-cat.png);
-   background-size: cover;
+   background-size: 100 %;
    background-repeat: no-repeat;
 }
 
 .header-container > * {
   display: inline-block;
   width: 400 px;
+  position: absolute;
+  left: 0;
+  margin: 25 px;
 }
 
 .link-container {
@@ -21,9 +24,10 @@ body {
   background-color: #1F2021;
   opacity: 0.3;
   width: 100 %;
-  height: 84 px;
+  height: 100 px;
   position: absolute;
   top: 0;
+  padding: 10 px;
 }
 
 .link-container li {
