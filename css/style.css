@@ -30,3 +30,20 @@ body {
 .header-container {
    background-image: url(img/header-cat.png);
 }
+
+.link-container {
+  background-color: #1F2021;
+  opacity: 0.3;
+  width: auto;
+  height: 84 px;
+}
+
+h1 {
+  font-size: 64 px;
+}
+
+p {
+  font-size: 24 px;
+}
+
+
