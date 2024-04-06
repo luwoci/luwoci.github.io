@@ -4,8 +4,10 @@ body {
 }
 
 .header-container {
+   display: block; 
+   width: 100 %;
    background-image: url(../img/header-cat.png);
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
 }
 
