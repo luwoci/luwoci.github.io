@@ -20,8 +20,6 @@ body {
 
 .header-container {
    background-image: url(../img/header-cat.png);
-   width: auto;
-   height: 770 px;
 }
 
 .header-container > * {
