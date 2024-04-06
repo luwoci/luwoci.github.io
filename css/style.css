@@ -3,10 +3,6 @@ body {
   color: #FFFFFF;
 }
 
-header {
-  background-image: url(img/header-cat.png);
-}
-
 .ahead {
   background-image: url(img/ahead.svg);
 }
@@ -29,4 +25,8 @@ header {
 
 .health {
    background-image: url(img/health.svg);
+}
+
+.header-container {
+   background-image: url(img/header-cat.png);
 }
