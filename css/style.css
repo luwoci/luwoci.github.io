@@ -83,3 +83,9 @@ button:active {
   top: 0;
   margin: 10 px;
 }
+
+.why-us {
+  display: grid;
+  grid-template-columns: 513 px 513 px;
+  gap: 90 px;
+}
