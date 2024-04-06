@@ -4,31 +4,31 @@ body {
 }
 
 .ahead {
-  background-image: url(img/ahead.svg);
+  background-image: url(../img/ahead.svg);
 }
 
 .plus {
-   background-image: url(img/plus.svg);
+   background-image: url(../img/plus.svg);
 }
 
 .certificate {
-   background-image: url(img/certificate.svg);
+   background-image: url(../img/certificate.svg);
 }
 
 .upbringing {
-   background-image: url(img/upbringing.svg);
+   background-image: url(../img/upbringing.svg);
 }
 
 .pedigree {
-   background-image: url(img/pedigree.svg);
+   background-image: url(../img/pedigree.svg);
 }
 
 .health {
-   background-image: url(img/health.svg);
+   background-image: url(../img/health.svg);
 }
 
 .header-container {
-   background-image: url(img/header-cat.png);
+   background-image: url(../img/header-cat.png);
    width: auto;
    height: 770 px;
 }
