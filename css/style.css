@@ -46,4 +46,7 @@ p {
   font-size: 24 px;
 }
 
-
+a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
