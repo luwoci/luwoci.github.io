@@ -38,6 +38,10 @@ body {
   height: 84 px;
 }
 
+.link-container li {
+  display: inline;
+}
+
 h1 {
   font-size: 64 px;
 }
