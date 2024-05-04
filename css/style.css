@@ -5,8 +5,6 @@ body {
 
 .header-container {
   margin: 0;
-  width: 100 %;
-  height: auto;
   background-image: url(../img/header-cat.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -31,13 +29,13 @@ body {
   padding: 20 px;
 }
 
-.link-container ul li {
+ul.link-container li {
   display: inline-block;
 }
 
 .link-container li:not(:last-child)::after {
-  content: ' | ';
-  padding: 0 5 px;
+  content: '|';
+  padding: 0 20 px;
 }
 
 h1 {
@@ -55,11 +53,7 @@ a:active {
   text-decoration: none;
 }
 
-button {
-  color: #D9D9D9;
-}
-
-button:active {
+button:hover {
   color: #FFFFFF;
 }
   
@@ -71,9 +65,9 @@ button:active {
   width: 82 px;
   height: 50 px;
   position: absolute;
-  right: 0;
-  top: 0;
-  margin: 10 px;
+  right: 5 px;
+  top: 10 px;
+  margin: 20 px;
 }
 
 .advantages-container {
