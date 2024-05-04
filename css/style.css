@@ -106,3 +106,8 @@ footer div {
 .why-us, .q-and-a {
   background-color: #272829;
 }
+
+.cats {
+  position: absolute;
+  top: 800 px;
+}
