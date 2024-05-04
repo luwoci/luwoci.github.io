@@ -24,7 +24,6 @@ body {
   opacity: 0.4;
   position: absolute;
   top: 0;
-  padding: 10 px;
   margin: 0;
   padding: 20 px;
 }
@@ -34,8 +33,7 @@ ul.link-container li {
 }
 
 .link-container li:not(:last-child)::after {
-  content: '|';
-  padding: 0 20 px;
+  content: '  |  ';
 }
 
 h1 {
@@ -65,7 +63,7 @@ button:hover {
   width: 82 px;
   height: 50 px;
   position: absolute;
-  right: 5 px;
+  left: 5 px;
   top: 10 px;
   margin: 20 px;
 }
