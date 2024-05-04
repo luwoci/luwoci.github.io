@@ -100,3 +100,7 @@ footer {
 footer div {
   margin: 50 px;
 }
+
+.why-us, .q-and-a {
+  background-color: #272829;
+}
