@@ -6,8 +6,8 @@ body {
 .header-container {
   margin: 0;
   width: 100 %;
-  height: 2000 px;   /* поменяй потом */
-  background-image: url(../img/header-cat.png);
+  height: auto;
+  background-image: url(../img/header-cat.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
