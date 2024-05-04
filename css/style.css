@@ -72,7 +72,7 @@ button:hover {
 
 .advantages-container {
   display: grid;
-  grid-template-columns: 513 px 513 px;
+  grid-template-columns: 1 fr 1 fr;
   gap: 90 px;
 }
 
@@ -82,4 +82,14 @@ button:hover {
 
 .button-ahead {
   background-image: url(../img/ahead.svg);
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1 fr 1 fr 1 fr;
+  gap: 500 px;
+}
+
+footer div {
+  margin: 50 px;
 }
