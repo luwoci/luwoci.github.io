@@ -76,7 +76,7 @@ button:active {
   margin: 10 px;
 }
 
-.why-us {
+.advantages-container {
   display: grid;
   grid-template-columns: 513 px 513 px;
   gap: 90 px;
