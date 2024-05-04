@@ -36,6 +36,11 @@ ul.link-container li {
 h1 {
   font-size: 64 px;
   color: #FFFFFF;
+  text-align: center;
+}
+
+p {
+  font-size: 26 px;
 }
 
 a:link {
