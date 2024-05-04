@@ -81,3 +81,11 @@ button:active {
   grid-template-columns: 513 px 513 px;
   gap: 90 px;
 }
+
+.button-back {
+  background-image: url(../img/back.svg); /* сделай чо нбудь онклик или типо того */
+}
+
+.button-ahead {
+  background-image: url(../img/ahead.svg);
+}
